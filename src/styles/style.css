@@ -1,0 +1,50 @@
+@import "~antd/dist/antd.css";
+
+.auth_background {
+  background: #212529;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth_login_wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 16px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  top: -100px;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.auth_login_title {
+  text-align: center;
+  padding: 1rem;
+}
+
+.main_loader {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.main_loader_wrapper {
+  position: relative;
+  margin: 0 auto;
+  height: fit-content;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logout_button {
+  float: right;
+}
